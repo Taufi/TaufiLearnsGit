@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
   }
+  
+  @IBAction func buttonClicked(_ sender: UIButton) {
+    print("Dies ist ein Git-Tutorial")
+  }
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
